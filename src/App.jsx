@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Navigate to="/tasks" replace />} />
+        <Route path="/" element={<Navigate to="/tasks"  />} />
         <Route path="/tasks" element={<TaskDashboard />} />
         <Route path="/tasks/:id" element={<TaskDetails />} /> {/* Task Details Page */}
       </Routes>
